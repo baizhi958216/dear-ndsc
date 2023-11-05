@@ -1,0 +1,21 @@
+{
+  "name": "Dear NDSC",
+  "description": "亲爱的CSDN，我实在不想登录，我想要狠狠的复制",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.csdn.net/*"],
+      "js": ["dearndsc.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "dearndsc_extensions.png"
+  },
+  "icons": {
+    "16": "dearndsc_extensions.png",
+    "32": "dearndsc_extensions.png",
+    "48": "dearndsc_extensions.png",
+    "128": "dearndsc_extensions.png"
+  }
+}
